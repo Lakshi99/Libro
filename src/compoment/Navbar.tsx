@@ -1,4 +1,4 @@
-
+import libroImage from "../assets/Images/libro.png"; 
 
 function Navbar() {
     return (
@@ -6,7 +6,7 @@ function Navbar() {
             <div className="bg-white text-white shadow w-full p-2 flex items-center justify-between">
                 <div className="flex items-center">
                     <div className="hidden md:flex items-center">
-                        <img src="https://www.emprenderconactitud.com/img/POC%20WCS%20(1).png" alt="Logo" className="w-28 h-18 mr-2" />
+                        <img src={libroImage} alt="Logo" className="w-20 h-20 mr-2" />
                         <h2 className="font-bold text-xl">Title</h2>
                     </div>
                     <div className="md:hidden flex items-center">
